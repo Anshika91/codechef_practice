@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int anshii;
+	cin>>anshii;
+	while(anshii--)
+	{
+	    int a,b;
+	    cin>>a>>b;
+	    if(2*a==5*b)
+	    cout<<"Either"<<endl;
+	    else if(2*a>5*b)
+	    cout<<"Chocolate"<<endl;
+	    else
+	    cout<<"Candy"<<endl;
+	}
+	return 0;
+}
